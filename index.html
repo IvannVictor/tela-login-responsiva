@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,28 +14,28 @@
     <div class="main-login">
 
         <div class="left-login">
-            <h1>Faca login<br>E entre para nosso time</h1>
+            <h1>Faça login<br>E entre para nosso time</h1>
             <img src="src/img/tela-login.svg" class="left-login-image" alt="tela-login">
         </div>
 
 
-        <div class="rigth-login">
+        <div class="right-login">
 
             <div class="card-login">
                 <h1>LOGIN</h1>
 
                 <div class="textfield">
-                    <label for="usuario">Usuario</label>
-                    <input type="text" name="usuario" placeholder="Usuario">
+                    <label for="usuario">Usuário</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="Usuário" autocomplete="username">
                 </div>
 
 
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input id="senha" type="password" name="senha" placeholder="Senha" autocomplete="current-password">
                 </div>
 
-                <button class="btn-login">Login</button>
+                <button class="btn-login" type="button" title="Demonstração visual: não autentica usuários">Login</button>
 
             </div>
 
